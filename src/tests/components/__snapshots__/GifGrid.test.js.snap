@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests in GifGrid.js should create the component  1`] = `
+<Fragment>
+  <h3>
+    Goku
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`tests in GifGrid.js should show items when images was loaded 1`] = `
+<Fragment>
+  <h3>
+    Goku
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="abc"
+      imgs="https://localhost/asd/asd.jpg"
+      key="abc"
+      title="test"
+    />
+  </div>
+</Fragment>
+`;

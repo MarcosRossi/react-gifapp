@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const GifGridItem = ({ title, imgs: url }) => {
   return (
@@ -7,4 +8,9 @@ export const GifGridItem = ({ title, imgs: url }) => {
       <img src={url} alt={title} />
     </div>
   );
+};
+
+GifGridItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  imgs: PropTypes.string.isRequired,
 };

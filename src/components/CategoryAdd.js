@@ -6,6 +6,7 @@ const CategoryAdd = function ({ setCategory }) {
   const handleChange = (e) => {
     setcategoryName(e.target.value);
   };
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     if (categoryName.trim().length <= 2) return;
@@ -16,11 +17,12 @@ const CategoryAdd = function ({ setCategory }) {
 
   return (
     <form onSubmit={handleSubmit}>
+      <p>{categoryName}</p>
       <input
-        value={categoryName}
-        onChange={handleChange}
         type='text'
         placeholder='Insert a new  category name'
+        value={categoryName}
+        onChange={handleChange}
       />
     </form>
   );

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests in GifExpertApp.js should create the component 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <hr />
+  <CategoryAdd
+    setCategory={[Function]}
+  />
+  <ol />
+</Fragment>
+`;
+
+exports[`tests in GifExpertApp.js should show a list of categories  1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <hr />
+  <CategoryAdd
+    setCategory={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+</Fragment>
+`;

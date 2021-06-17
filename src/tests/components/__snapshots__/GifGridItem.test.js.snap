@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test GifGridItem.js should create the component GifGridItem  1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <p>
+    hunter x hunter GIF
+  </p>
+  <img
+    alt="hunter x hunter GIF"
+    src="https://test.com.ar"
+  />
+</div>
+`;
